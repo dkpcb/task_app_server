@@ -1,4 +1,6 @@
 # task_app_server
+- タスク管理
+- 認証機能
 
 GET /api/tasks タスクの取得 <br> 
 POST /api/tasks タスクの追加 <br> 
