@@ -2,13 +2,15 @@
 - タスク管理
 - 認証機能
 
-GET /api/tasks タスクの取得 <br> 
+## API
 
-POST /api/tasks タスクの追加 <br> 
+GET /api/tasks 全てのタスクの取得をする <br> 
+
+POST /api/tasks タスクの追加をする <br> 
 { "name" : "掃除"　}　<br>
 
-PUT /api/tasks タスクの完了 <br> 
-DELETE /api/tasks タスクの削除 <br> 
+PUT /api/tasks タスクを完了させる <br> 
+DELETE /api/tasks タスクを削除する <br> 
 
 POST /api/register　ユーザー登録 <br> 
 {
@@ -18,6 +20,9 @@ POST /api/register　ユーザー登録 <br>
 
 POST /api/login JWTの取得
 
+![task-management SVG](./task-management.svg "Sample SVG Image")
+
+## 使用技術
 - Go 1.22
 - mySQL
 - Echo
