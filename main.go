@@ -11,5 +11,4 @@ func main() {
 	defer sqlDB.Close()
 	e := echo.New()
 	router.SetRouter(e)
-
 }
