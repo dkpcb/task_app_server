@@ -2,6 +2,12 @@
 - タスク管理
 - 認証機能
 
+
+## ER図
+
+![task.png](./task_er.png "ER図")
+
+
 ## API
 
 GET /api/tasks 全てのタスクの取得をする <br> 
